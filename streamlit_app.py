@@ -40,7 +40,7 @@ def auto_download_js(json_string, file_name):
             document.body.removeChild(a);
         </script>
     
-     Inyectamos el componente HTML/JS de forma invisible
+     # Inyectamos el componente HTML/JS de forma invisible
     components.html(js_code, height=0, width=0)
 
  --- Interfaz Streamlit ---
